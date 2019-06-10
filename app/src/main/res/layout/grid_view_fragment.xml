@@ -10,10 +10,9 @@
       android:layout_height="wrap_content"
       android:text="i am fragment1"/>
 
-  <ImageView
-      android:id="@+id/grid_view_fragment_image"
-      android:layout_width="200dp"
-      android:layout_height="wrap_content"
-      android:src="@drawable/air"/>
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/grid_view_fragment_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
 
 </LinearLayout>

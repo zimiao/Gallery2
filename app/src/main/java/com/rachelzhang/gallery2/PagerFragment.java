@@ -30,7 +30,7 @@ public class PagerFragment extends Fragment {
   @Override
   public void onActivityCreated(@Nullable Bundle savedInstanceState) {
     super.onActivityCreated(savedInstanceState);
-
+    // Note that this pager is inside another fragment, so you need to call child fm, instead of fm!
     mAdapter = new PagerAdapter(getChildFragmentManager());
     mPager.setAdapter(mAdapter);
   }

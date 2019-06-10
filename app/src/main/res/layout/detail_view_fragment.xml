@@ -9,6 +9,7 @@
   <ImageView
       android:id="@+id/detail_view_fragment_image"
       android:layout_width="match_parent"
+      android:scaleType="centerCrop"
       android:layout_height="wrap_content"
       android:src="@drawable/air"/>
 
